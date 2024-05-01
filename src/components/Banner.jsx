@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 function Banner() {
     return (
         <React.Fragment>
-            <div className='max-w-screen-lg mt-[60px] flex container mx-auto justify-center space-x-5  bg-white text-black'>
+            <div className='max-w-screen-2xl mt-[60px] flex container mx-auto justify-center space-x-5  bg-white text-black'>
                 <div className='flex  flex-col p-6 mt-[30px] justify-between md:flex-row   '>
                     {/* Left Side */}
                     <div className='md:w-[60%] text-center space-y-6 order-2 md:order-1 md:mt-[48px]'>
