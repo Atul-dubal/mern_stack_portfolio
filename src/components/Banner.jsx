@@ -1,6 +1,5 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function Banner() {
     return (
@@ -25,7 +24,7 @@ function Banner() {
                         <div className='flex flex-col  space-y-3'>
                             <p className='text-left font-bold text-xl text-black'>Available On </p>
                             <ol className=' flex flex-row space-x-5'>
-                                <li><FontAwesomeIcon icon={faHouse}/></li>
+                                <li></li>
                                 <li>YouTube</li>
                                 <li>Linkdin</li>
                                 <li>GitHub</li>
