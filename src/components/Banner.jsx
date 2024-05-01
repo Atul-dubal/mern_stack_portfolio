@@ -19,7 +19,7 @@ function Banner() {
                             />
                         </p>
 
-                        <p className=' font-semibold text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur eum minus culpa maiores dolorem exercitationem omnis, dignissimos pariatur iste.</p>
+                        <p className=' font-semibold '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur eum minus culpa maiores dolorem exercitationem omnis, dignissimos pariatur iste.</p>
                         {/* Social Icons */}
                         <div className='flex flex-col  space-y-3'>
                             <p className='text-left font-bold text-xl text-black'>Available On </p>
