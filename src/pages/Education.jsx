@@ -54,7 +54,7 @@ function Education() {
           <h1 className='text-center font-bold text-black text-2xl my-5'>Education</h1>
           <div className=' grid grid-cols-1 md:grid-cols-2 '>
             <EducationCard type='SSC' school='Sudhagad Education Society Secondary & Higher Secondary School Kalmabol,Navi Mumnbai, 410218' marks='91%' />
-            <EducationCard type='HSC' school='Sudhagad Education Society Secondary & Higher Secondary School Kalmabol,Navi Mumnbai, 410218' marks='91%' />
+            <EducationCard type='HSC' school='Sudhagad Education Society Secondary & Higher Secondary School Kalmabol,Navi Mumnbai, 410218' marks='59%' />
             <EducationCard type='BE ECS' school='Pillai HOC Collage of Engineering & Technology, Rasayni, 410207' marks='CGPA : 8.5' />
 
           </div>
