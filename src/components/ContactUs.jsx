@@ -4,16 +4,16 @@ import React from 'react'
 function ContactUs() {
   return (
     <>
-      <div className='max-w-screen-lg mx-auto container mt-[60px] bg-white text-black my-4'>
+      <div className='max-w-screen-xl mx-auto container mt-[60px] bg-white text-black my-4'>
         <h1 className='text-center font-bold py-[30px] text-2xl'>Contact Us</h1>
-        <div className='flex flex-col justify-around  md:flex-row '>
+        <div className='flex flex-col  justify-evenly  md:flex-row '>
 
           {/* Left Side Image */}
-          <div className='flex justify-center'>
-            <img className=' w-[200px] md:w-[350px] start-0' src='/contact_us.jpg' alt='' />
+          <div className='flex justify-center '>
+            <img className=' w-[250px] md:w-[450px] start-0' src='/contact_us.jpg' alt='' />
           </div>
           {/* Right Side Options */}
-          <div className=' bg-white text-black px-5'>
+          <div className='  text-black px-5 md:w-96'>
             <form action='' method='' className=' space-y-3'>
               <label>Full Name : </label>
               <br />

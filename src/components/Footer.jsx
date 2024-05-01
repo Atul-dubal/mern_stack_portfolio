@@ -5,8 +5,8 @@ function Footer() {
   return (
     <React.Fragment>
       <hr/>
-      <div className='max-w-screen-lg container mx-auto '>
-      <footer className="footer footer-center p-10 bg-white text-black text-base-content rounded">
+      <div className='max-w-screen-xl container mx-auto '>
+      <footer className="footer footer-center p-10 bg-white text-black  rounded">
         <nav className="grid grid-flow-col gap-4">
        
           <a className="link link-hover">Home</a>

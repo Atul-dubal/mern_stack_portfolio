@@ -48,7 +48,7 @@ function Education() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className='max-w-screen-lg mx-auto container mt-[60px] py-[30px] bg-white text-black'>
+      <div className='max-w-screen-xl mx-auto container mt-[60px] py-[30px] bg-white text-black'>
         {/* Education */}
         <div className=''>
           <h1 className='text-center font-bold text-black text-2xl my-5'>Education</h1>

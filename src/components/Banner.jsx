@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 function Banner() {
     return (
         <React.Fragment>
-            <div className='max-w-screen-lg mt-[60px] flex container mx-auto justify-center space-x-5  bg-white text-black'>
+            <div className='max-w-screen-xl mt-[60px] flex container mx-auto justify-center space-x-5  bg-white text-black'>
                 <div className='flex  flex-col p-6 mt-[30px] justify-between md:flex-row   '>
                     {/* Left Side */}
                     <div className='md:w-[60%] text-center space-y-6 order-2 md:order-1 md:mt-[48px]'>
@@ -19,12 +19,12 @@ function Banner() {
                             />
                         </p>
 
-                        <p className=' font-semibold '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur eum minus culpa maiores dolorem exercitationem omnis, dignissimos pariatur iste.</p>
+                        <p className=' font-semibold text-start'>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, eos illo nisi voluptas dolorum totam! ipsum dolor sit amet consectetur adipisicing elit. Aut, dolores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur eum minus culpa maiores dolorem exercitationem omnis, dignissimos pariatur iste.</p>
                         {/* Social Icons */}
                         <div className='flex flex-col  space-y-3'>
                             <p className='text-left font-bold text-xl text-black'>Available On </p>
                             <ol className=' flex flex-row space-x-5'>
-                                <li></li>
+                                <li>Insta</li>
                                 <li>YouTube</li>
                                 <li>Linkdin</li>
                                 <li>GitHub</li>
@@ -40,7 +40,7 @@ function Banner() {
                     </div>
                     {/* Right Side */}
                     <div className=' order-1 md:order-2 '>
-                        <img className='' style={{ width: '350px' }} src='/developer_img.jpg' alt='' />
+                        <img className='w-[350px] md:w-[500px]'  src='/developer_img.jpg' alt='' />
                     </div>
 
                 </div>
