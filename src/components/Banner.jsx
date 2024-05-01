@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHouse } from '@a'
+
 function Banner() {
     return (
         <React.Fragment>
