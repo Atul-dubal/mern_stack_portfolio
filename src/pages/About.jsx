@@ -11,7 +11,7 @@ function About() {
       <div className='max-w-screen-xl mx-auto container mt-[60px] py-12 bg-white text-black '>
         <div className='flex flex-col md:flex-row justify-center  md:justify-around space-y-5'>
           {/* Image Side */}
-          <div className='w-[100%] md:w-[500px] flex justify-center order-1 md:order-2 opacity-100 hover:scale-110 duration-500'>
+          <div className='w-[100%] md:w-[500px] flex justify-center order-1 md:order-2 opacity-100 sm:hover:scale-110 duration-500'>
             <img className=' w-[250px] rounded-lg md:w-[100%] ' src='/about_us.jpg' alt='' />
           </div>
           {/* Information Side */}
