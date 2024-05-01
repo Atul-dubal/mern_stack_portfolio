@@ -4,7 +4,7 @@ import React from 'react'
 function ContactUs() {
   return (
     <>
-      <div className='max-w-screen mx-auto container mt-[60px] bg-white text-black my-4'>
+      <div className='max-w-screen-lg mx-auto container mt-[60px] bg-white text-black my-4'>
         <h1 className='text-center font-bold py-[30px] text-2xl'>Contact Us</h1>
         <div className='flex flex-col justify-around  md:flex-row '>
 

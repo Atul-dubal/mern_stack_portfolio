@@ -8,7 +8,7 @@ function About() {
   return (
     <React.Fragment>
       <Navbar />
-      <div className='max-w-screen mx-auto container mt-[60px] py-12 bg-white text-black '>
+      <div className='max-w-screen-lg mx-auto container mt-[60px] py-12 bg-white text-black '>
         <div className='flex flex-col md:flex-row justify-center  md:justify-around space-y-5'>
           {/* Image Side */}
           <div className='w-[100%] md:w-[400px] flex justify-center order-1 md:order-2 opacity-100 hover:scale-105 duration-500'>
