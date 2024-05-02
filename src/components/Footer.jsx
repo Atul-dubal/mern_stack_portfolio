@@ -7,7 +7,7 @@ function Footer() {
   return (
     <React.Fragment>
       <hr/>
-      <div className='max-w-screen-xl container mx-auto '>
+      <div className='max-w-screen-2xl container mx-auto '>
       <footer className="footer footer-center p-10 bg-white text-black  rounded">
         <nav className="grid grid-flow-col gap-4">
        
