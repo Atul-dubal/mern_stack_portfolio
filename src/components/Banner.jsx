@@ -31,13 +31,13 @@ function Banner() {
                                 <li><FontAwesomeIcon size='xl' icon={faYoutube}/></li>
                                 <li><FontAwesomeIcon size='xl' icon={faGithub}/></li> */}
                                  
-                                 <button className=" rounded-md bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon size='xl' icon={faInstagram} /> Instagram</button>
+                                 <button className=" rounded-md bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faInstagram} /> Instagram</button>
                           
-                                 <button className=" rounded-md bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon size='xl' icon={faLinkedin} /> Linkdin</button>
+                                 <button className=" rounded-md bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faLinkedin} /> Linkdin</button>
                           
-                                 <button className=" rounded-md bg-black hover:bg-slate-900 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon size='xl' icon={faGithub} /> GitHub</button>
+                                 <button className=" rounded-md bg-black hover:bg-slate-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faGithub} /> GitHub</button>
                           
-                                 <button className=" rounded-md bg-red-600 hover:bg-red-700 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon size='xl' icon={faYoutube} /> YouTube</button>
+                                 <button className=" rounded-md bg-red-600 hover:bg-red-700 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faYoutube} /> YouTube</button>
                                  </ol>
                         </div>
 
