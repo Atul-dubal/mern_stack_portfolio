@@ -38,7 +38,7 @@ const Navbar = () => {
                             </ul>
                         </div>
 
-                        <button className=" rounded-md md:flex bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon icon={faInstagram} /> Instagram</button>
+                        <button className=" rounded-md hidden md:flex bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon icon={faInstagram} /> Instagram</button>
 
                         <button className=" rounded-md hidden md:flex bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon icon={faLinkedin} /> Linkdin</button>
                     </div>
