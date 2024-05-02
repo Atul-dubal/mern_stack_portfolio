@@ -25,7 +25,7 @@ function Banner() {
                         {/* Social Icons */}
                         <div className='flex flex-col  space-y-3'>
                             <p className='text-left font-bold text-xl text-black'>Available On </p>
-                            <ol className=' flex flex-row space-x-5'>
+                            <ol className=' flex flex-row space-x-2'>
                                 {/* <li><FontAwesomeIcon size='xl' icon={faInstagram}/></li>
                                 <li><FontAwesomeIcon size='xl' icon={faLinkedin}/></li>
                                 <li><FontAwesomeIcon size='xl' icon={faYoutube}/></li>
