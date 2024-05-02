@@ -11,7 +11,7 @@ function ContactUs() {
 
           {/* Left Side Image */}
           <div className='flex justify-center '>
-            <img className=' w-[250px] md:w-[450px] start-0 hover:scale-110 duration-300' src='/contact_us.jpg' alt='' />
+            <img className=' w-[250px] md:w-[450px] start-0 hover:scale-110 duration-300' src='/images/contact_us.jpg' alt='' />
           </div>
           {/* Right Side Options */}
           <div className='  text-black px-5 md:w-96'>

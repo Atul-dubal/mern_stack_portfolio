@@ -12,7 +12,7 @@ function About() {
         <div className='flex flex-col md:flex-row justify-center  md:justify-around space-y-5'>
           {/* Image Side */}
           <div className='w-[100%] md:w-[500px] flex justify-center order-1 md:order-2 opacity-100 sm:hover:scale-110 duration-500'>
-            <img className=' w-[250px] rounded-lg md:w-[100%] ' src='/about_us.jpg' alt='' />
+            <img className=' w-[250px] rounded-lg md:w-[100%] ' src='/images/about_us.jpg' alt='' />
           </div>
           {/* Information Side */}
           <div className='w-[100%] flex justify-center flex-col space-y-3 order-2 md:order-1 px-3'>

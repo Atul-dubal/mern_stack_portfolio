@@ -50,7 +50,7 @@ function Banner() {
                     </div>
                     {/* Right Side */}
                     <div className=' order-1 md:order-2 '>
-                        <img className='w-[350px] md:w-[500px] hover:scale-110 duration-300'  src='/developer_img.jpg' alt='' />
+                        <img className='w-[350px] md:w-[500px] hover:scale-110 duration-300'  src='/images/developer_img.jpg' alt='' />
                     </div>
 
                 </div>

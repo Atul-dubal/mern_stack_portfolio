@@ -11,37 +11,37 @@ function Education() {
     {
       id: 1,
       name: 'HTML',
-      logo: '/html-5-logo.png'
+      logo: '/images/html-5-logo.png'
     },
     {
       id: 2,
       name: 'CSS',
-      logo: '/css.png'
+      logo: '/images/css.png'
     },
     {
       id: 3,
       name: 'JS',
-      logo: '/js_logo.png'
+      logo: '/images/js_logo.png'
     },
     {
       id: 4,
       name: 'PHP',
-      logo: '/php.png'
+      logo: '/images/php.png'
     },
     {
       id: 5,
       name: 'Mysql',
-      logo: '/mysql.png'
+      logo: '/images/mysql.png'
     },
     {
       id: 6,
       name: 'NODEJS',
-      logo: '/nodejs.png'
+      logo: '/images/nodejs.png'
     },
     {
       id: 7,
       name: 'JS',
-      logo: '/reactjs.png'
+      logo: '/images/reactjs.png'
     }
   ];
 
