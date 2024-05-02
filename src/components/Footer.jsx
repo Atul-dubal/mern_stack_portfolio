@@ -7,20 +7,20 @@ function Footer() {
   return (
     <React.Fragment>
       <hr/>
-      <div className='max-w-screen-2xl container mx-auto '>
-      <footer className="footer footer-center p-10 bg-white text-black  rounded">
+      <div className='max-w-screen container mx-auto '>
+      <footer className="footer footer-center p-5 bg-white text-black  rounded">
         <nav className="grid grid-flow-col gap-4">
        
-        <Link to='/' className=' font-bold text-lg hover:text-blue-800 hover:scale-110 hover:duration-200'>Home</Link>
-            <Link to='/education' className='font-bold text-lg hover:text-blue-800 hover:scale-110 hover:duration-200'>Education</Link>
-            <Link to='/projects' className='font-bold text-lg hover:text-blue-800 hover:scale-110 hover:duration-200'>Projects</Link>
-            <Link to='/contact' className='font-bold text-lg hover:text-blue-800 hover:scale-110 hover:duration-200'>Contact</Link>
-            <Link to='/about' className='font-bold text-lg hover:text-blue-800 hover:scale-110 hover:duration-200'>About</Link>
+        <Link to='/' className=' font-bold text-sm hover:text-blue-800 hover:scale-110 hover:duration-200'>Home</Link>
+            <Link to='/education' className='font-bold text-sm hover:text-blue-800 hover:scale-110 hover:duration-200'>Education</Link>
+            <Link to='/projects' className='font-bold text-sm hover:text-blue-800 hover:scale-110 hover:duration-200'>Projects</Link>
+            <Link to='/contact' className='font-bold text-sm hover:text-blue-800 hover:scale-110 hover:duration-200'>Contact</Link>
+            <Link to='/about' className='font-bold text-sm hover:text-blue-800 hover:scale-110 hover:duration-200'>About</Link>
           
         </nav>
        <div>
         <h1 className='text-center text-xl font-bold'>Follow Us On</h1>
-          <div className="flex flex-row space-x-6">   
+          <div className="flex flex-row space-x-4">   
             <FontAwesomeIcon size='xl' icon={faInstagram} />
             <FontAwesomeIcon size='xl' icon={faLinkedin} />
             <FontAwesomeIcon size='xl' icon={faYoutube} />
