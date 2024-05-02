@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import {REACT_APP_INSTAGRAM_ID,REACT_APP_LINKDIN_URL} from '../config'
+
+
 
 const Navbar = () => {
     const Navbar_Items = () => {
@@ -29,7 +32,7 @@ const Navbar = () => {
                                 <Navbar_Items />
                             </ul>
                         </div>
-                        <a className="text-2xl cursor-pointer font-bold">Atul<span className='text-pink-500'>Dubal</span> </a>
+                        <Link to='/' className="text-2xl cursor-pointer font-bold">Atul<span className='text-pink-500'>Dubal</span> </Link>
                     </div>
                     <div className="navbar-end w-[75%] space-x-4">
                         <div className="navbar-center hidden lg:flex">
@@ -38,9 +41,9 @@ const Navbar = () => {
                             </ul>
                         </div>
 
-                        <button className=" rounded-md hidden md:flex bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon icon={faInstagram} /> Instagram</button>
+                        <a href={REACT_APP_INSTAGRAM_ID} target='_blank' >   <button className=" items-center rounded-md hidden md:flex bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-sm"> <FontAwesomeIcon className='p-1' icon={faInstagram} /> Instagram</button></a>
 
-                        <button className=" rounded-md hidden md:flex bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-sm"><FontAwesomeIcon icon={faLinkedin} /> Linkdin</button>
+                        <a href={REACT_APP_LINKDIN_URL} target='_blank' >  <button className="items-center rounded-md hidden md:flex bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-sm"> <FontAwesomeIcon className='p-1' icon={faLinkedin} /> Linkdin</button></a>
                     </div>
                 </div>
             </div>

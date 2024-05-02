@@ -2,6 +2,7 @@ import React from 'react'
 import { ReactTyped } from "react-typed";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube , faInstagram , faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { REACT_APP_GITHUB_URL, REACT_APP_INSTAGRAM_ID,REACT_APP_LINKDIN_URL,REACT_APP_YOUTUBE_URL } from '../config';
 
 function Banner() {
     return (
@@ -31,13 +32,13 @@ function Banner() {
                                 <li><FontAwesomeIcon size='xl' icon={faYoutube}/></li>
                                 <li><FontAwesomeIcon size='xl' icon={faGithub}/></li> */}
                                  
-                                 <button className=" rounded-md bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faInstagram} /> Instagram</button>
+                                <a href={REACT_APP_INSTAGRAM_ID} target='_blank' > <button className=" rounded-md bg-[#E1306C] hover:opacity-90 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faInstagram} /> Instagram</button></a>
                           
-                                 <button className=" rounded-md bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faLinkedin} /> Linkdin</button>
+                                <a href={REACT_APP_LINKDIN_URL} target='_blank' > <button className=" rounded-md bg-blue-700 hover:bg-blue-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faLinkedin} /> Linkdin</button></a>
                           
-                                 <button className=" rounded-md bg-black hover:bg-slate-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faGithub} /> GitHub</button>
+                                <a href={REACT_APP_GITHUB_URL} target='_blank' > <button className=" rounded-md bg-black hover:bg-slate-900 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faGithub} /> GitHub</button></a>
                           
-                                 <button className=" rounded-md bg-red-600 hover:bg-red-700 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faYoutube} /> YouTube</button>
+                                <a href={REACT_APP_YOUTUBE_URL}  target='_blank'> <button className=" rounded-md bg-red-600 hover:bg-red-700 duration-200 px-2 py-2 text-white  text-[10px]  md:text-sm"><FontAwesomeIcon size='md' icon={faYoutube} /> YouTube</button></a>
                                  </ol>
                         </div>
 
@@ -50,7 +51,7 @@ function Banner() {
                     </div>
                     {/* Right Side */}
                     <div className=' order-1 md:order-2 '>
-                        <img className='w-[350px] md:w-[500px] hover:scale-110 duration-300'  src='/images/developer_img.jpg' alt='' />
+                        <img className='w-[350px] md:w-[500px] hover:scale-110 duration-300'  src='/images/developer.png' alt='' />
                     </div>
 
                 </div>
